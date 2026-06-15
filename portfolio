@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Vladimir Rancic</title>
+<style>
+:root{
+--bg:#0f172a;--text:#e5e7eb;--accent:#38bdf8;
+}
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+background:linear-gradient(180deg,#020617,#0f172a);
+color:var(--text);margin:0;
+}
+.container{max-width:1400px;margin:auto;padding:40px 20px;}
+h1{font-size:3rem}
+.nav a{color:var(--accent);text-decoration:none;margin-right:20px;}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:24px;margin-top:40px;}
+.card{background:rgba(255,255,255,.03);border-radius:16px;overflow:hidden;}
+.card img{width:100%;display:block;}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="nav"><a href="index.html">Home</a></div>
+<h1>Portfolio</h1>
+<p>Selected graphic design work.</p>
+<div class="gallery">
+<div class="card"><img src="portfolio_assets/page-01.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-02.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-03.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-04.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-05.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-06.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-07.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-08.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-09.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-10.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-11.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-12.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-13.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-14.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-15.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-16.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-17.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-18.jpg" alt="Portfolio page"></div><div class="card"><img src="portfolio_assets/page-19.jpg" alt="Portfolio page"></div>
+</div>
+</div>
+</body>
+</html>
